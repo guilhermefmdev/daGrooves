@@ -1,0 +1,119 @@
+.controllers {
+    padding: 0 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.controls-btns {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.controls-btns:active {
+    color: rgb(126, 126, 126);
+}
+
+.progress {
+    height: 38px;
+    margin: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.progress:focus {
+    outline: none;
+}
+
+.progress::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000;
+    background: black;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.progress::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    height: 30px;
+    width: 15px;
+    border-radius: 100px;
+    background: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -11px;
+}
+
+.progress:focus::-webkit-slider-runnable-track {
+    background: black;
+}
+
+.progress::-moz-range-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000;
+    background: black;
+    border-radius: 50px;
+    border: 1px solid #000000;
+}
+
+.progress::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    height: 30px;
+    width: 15px;
+    border-radius: 60px;
+    background: white;
+    cursor: pointer;
+}
+
+.progress::-ms-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.progress::-ms-fill-lower {
+    background: black;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.progress::-ms-fill-upper {
+    background: black;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.progress::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 1px 1px 1px #000000;
+    height: 30px;
+    width: 15px;
+    border-radius: 60px;
+    background: white;
+    cursor: pointer;
+}
+
+.progress:focus::-ms-fill-lower {
+    background: black;
+}
+
+.progress:focus::-ms-fill-upper {
+    background: black;
+}

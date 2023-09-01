@@ -1,0 +1,20 @@
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.track-info h1 {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.track-info h2{
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}

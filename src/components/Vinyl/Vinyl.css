@@ -7,10 +7,13 @@
 
 .vinyl {
     position: relative;
-    animation: rotate 20s linear infinite;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.rotate {
+    animation: rotate 20s linear infinite;
 }
 
 .vinyl-center{

@@ -9,18 +9,22 @@ body {
 }
 
 .container {
+    position: relative;
     max-width: 600px;
     height: 100vh;
-    max-height: 800px ;
-    margin: 20px auto;
+    max-height: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
     padding: 15px;
     background-color: rgb(34, 34, 34);
     border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.219);
 }
 
 @media (max-width: 800px) {
     .container {
         margin: 0 auto;
         max-height: none;
+        box-shadow: none;
     }
 }
